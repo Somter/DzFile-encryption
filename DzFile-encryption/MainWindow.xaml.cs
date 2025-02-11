@@ -77,7 +77,7 @@ namespace DzFile_encryption
                 cancelSource = null;
             }
         }
-
+         
         private void CancelOperation_Click(object sender, RoutedEventArgs e)
         {
             cancelSource?.Cancel();
